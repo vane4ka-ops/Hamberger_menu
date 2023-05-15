@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Processed File</title>
+  </head>
+  <body>
+    <h1>Here is your processed file:</h1>
+    <img src="{{ url_for('send_processed_file', filename=filename) }}">
+    <p>Processing time: {{ elapsed_time }} seconds</p>
+  </body>
+</html>
